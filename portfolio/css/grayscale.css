@@ -91,6 +91,12 @@ a {
         #mainNav .nav-link.active:hover {
           color: white; } }
 
+.carousel-inner,.carousel,.item,.container,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+}
+
 
 .carousel-item {
   height: 100vh;
@@ -100,6 +106,10 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.carousel-tem > img {
+    width: 100%;
 }
 
   .masthead .intro-body {
