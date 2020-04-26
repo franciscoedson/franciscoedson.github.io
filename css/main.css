@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background: rgba(252, 201, 36, 0.8);
+  font-size: 18px;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container .logo {
+  width: 150px;
+}
+
+.container h1 {
+  margin: 1em 0;
+}
+
+.container p {
+  line-height: 1.7rem;
+}
+
+.container .left {
+  background: #0b2f4a;
+  padding: 1em;
+}
+
+.container .left p, .container .left h1 {
+  color: white;
+}
+
+.container .right {
+  margin: 3em;
+  padding: 1em;
+}
+
+.container .right p, .container .right a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #353535;
+  padding: 0px 10px 10px 10px;
+  display: block;
+}
+
+.container a:hover {
+  background-color: white;
+}
+
+.container a:active {
+  color: white;
+  background: #353535;
+}
+
+.container .light {
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-top: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  button {
+    width: 60% !important;
+  }
+  input {
+    width: calc(60% - 1em) !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    margin: 1em 0;
+  }
+  p {
+    line-height: 1.7em !important;
+  }
+  .inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% auto;
+        grid-template-columns: 70% auto;
+  }
+  .inner .left {
+    text-align: left;
+    padding: 0 2em;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+  }
+  .inner .left .content {
+    padding: 0 3em;
+  }
+  .inner .left h1 {
+    margin: 0;
+    font-size: 2.4em;
+  }
+  .inner .left h1 span {
+    display: block;
+  }
+  .inner .right {
+    text-align: left;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 0 2em 1.5em;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin: 0;
+  }
+  .inner input {
+    width: calc(100% - 1em) !important;
+    margin: 1em 0;
+  }
+  .inner button {
+    width: 100% !important;
+  }
+  .proto-container {
+    -webkit-clip-path: inset(0 30% 0 0);
+            clip-path: inset(0 30% 0 0);
+    position: absolute;
+    top: 23%;
+    height: 70%;
+    z-index: 0;
+    width: 100%;
+    pointer-events: none;
+  }
+  .proto-container .proto {
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    width: 19%;
+    height: 80%;
+    float: left;
+    margin-left: 1em;
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  body {
+    font-size: 222px;
+  }
+  .content {
+    padding: 0 6em !important;
+  }
+  .right {
+    padding: 0 !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
