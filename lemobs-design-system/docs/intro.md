@@ -12,6 +12,6 @@ Introductory text
 And some more text.
 
 ```image
-src: .img/cat.jpg
+src: img/cat.jpg
 title: Nice Cat
 ```
