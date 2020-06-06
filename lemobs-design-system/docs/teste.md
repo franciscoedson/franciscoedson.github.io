@@ -28,6 +28,6 @@ function identity(x) {
 And some more text.
 
 ```image
-src: /cat.jpg
+src: img/cat.jpg
 title: Nice Cat
 ```
