@@ -10,6 +10,6 @@ Introductory text
 And some more text.
 
 ```image
-src: ../img/cat.jpg
+src: ../lemobs-design-system/img/cat.jpg
 title: Nice Cat
 ```
