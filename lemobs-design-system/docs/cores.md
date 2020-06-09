@@ -1,4 +1,4 @@
-# Page Title
+# Cores
 
 > "Design system isn’t a project, it’s a product serving products". Nathan Curtis
 
