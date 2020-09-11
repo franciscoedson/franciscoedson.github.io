@@ -10,6 +10,16 @@ body,html {
   font-family: sans-serif;
 }
 
+.intro {
+  color: beige;
+  position: absolute;
+  top: 20%
+}
+
+.intro h1 {
+  text-align: center;
+}
+
 .keys {
   display: flex;
   flex: 1;
